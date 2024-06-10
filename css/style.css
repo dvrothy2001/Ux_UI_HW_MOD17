@@ -1,0 +1,111 @@
+.logo{
+    height: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nav{
+    display: flex;
+    background-color: black;
+    padding: 20px;
+}
+
+.left, .center, .right{
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.left, .right{
+    width: 35%;
+}
+
+.center{
+    width: 50%;
+}
+
+.center a{
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+}
+
+button{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 15px;
+    width: 30%;
+}
+
+.left button{
+    background-color: white;
+}
+
+
+
+.column{
+    display: flex;
+    height: 1200px;
+    width: 800px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+
+
+
+.text{
+    background: rgb(0,0,0,0.7);
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+}
+
+.text p{
+    color: rgba(255,255,255,0.7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb, .tw, .ig{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.fb{
+    color: white;
+}
+
+.tw{
+    color: white;
+}
+
+.ig{
+    color: white;
+}
+
+
+
+
+/* Navigation styles */
+
+/* Column styles */
+
+/* Footer Styles */
